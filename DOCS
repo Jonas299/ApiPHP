@@ -1,0 +1,15 @@
+/*** | GET METHOD | ***/
+//-List contact
+/testphp/auth/Api/?action=show
+
+/*** | POST METHOD | ***/
+//-CREATE CONTACT
+/testphp/auth/Api/ {action = 'create', name = '', lastname = '', email = '', phones = [] || ''}
+//-DELETE CONTACT
+/testphp/auth/Api/ {action = 'delete', id = ''}
+
+/*** + ***/
+//-UPDATE CONTACT
+/testphp/auth/Api/ {action = 'update',  id = '', name = '', lastname = '', email = ''}
+//-UPDATE PHONE CONTACT
+/testphp/auth/Api/ {action = 'updatePhone',  id = '', phone = ''}
